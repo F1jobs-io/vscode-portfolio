@@ -1,0 +1,23 @@
+.iconSpan {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.dateStyle {
+    color: #ffffff;  /* Default color */
+  }
+@media (max-width: 1169px) {
+    .dateStyle {
+      color: red;  /* Change color to red */
+    }
+  }
+  

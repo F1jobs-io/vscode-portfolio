@@ -1,0 +1,25 @@
+/* ExperienceCard.module.css */
+.iconSpan {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50%;
+}
+
+/* Ensure that the div wrapping the Image component fills its parent */
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+/* Media query for viewports wider than or equal to 1170px */
+.dateStyle {
+    color: #ffffff;  /* Default color */
+  }
+@media (max-width: 1169px) {
+    .dateStyle {
+      color: red;  /* Change color to red */
+    }
+  }
+  

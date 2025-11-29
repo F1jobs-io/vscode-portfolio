@@ -1,0 +1,59 @@
+/* About.module.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .textSection {
+    /* flex-grow: 3; */
+    flex-basis: 50%;
+    padding: 20px;
+  }
+  
+  .imageSection {
+    /* flex-grow: 2; */
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    
+    /* max-width: 60%; */
+    /* max-width: 600px; */
+    
+  }
+  
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+    }
+    .textSection, .imageSection {
+      flex-basis: 100%;
+      margin-right: 10px;
+      
+      
+    }
+    .imageSection {
+        max-width: 500px;
+        align-items: center;
+        order: -1;
+        padding-top: 50px; /* This line will move the image section above the text section */
+        padding-bottom: 50px; /* This line will move the image section above the text section */
+      }
+      .textSection {
+        order: 1;
+        margin-right: 90px; /* Optional, as text will be below by default, but added for clarity */
+      }
+  }
+  
+  @media (max-width: 900px) {
+    
+    .textSection {
+        
+        margin-right: 10px; /* This line will move the image section above the text section */
+      }
+      
+  }

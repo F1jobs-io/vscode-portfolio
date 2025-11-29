@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "degree": "Master of Science in Administration with Concentration in Digital Management",
+    "school": "Central Michigan University",
+    "date": "Aug 2023 - Dec 2024",
+    "description": "Specialized coursework in Digital Management, Business Analytics, and Information Systems.",
+    "icon": "/default-school.png",
+    "iconBg": "#2A9D8F"
+  },
+  {
+    "id": 2,
+    "degree": "Bachelor of Science in Medical",
+    "school": "Maharishi Markandeshwar University",
+    "date": "Aug 2015 - May 2019",
+    "description": "Foundation in medical sciences with strong analytical and research skills.",
+    "icon": "/default-school.png",
+    "iconBg": "#4b6cb7"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Business Analysis",
+      "icon": "fas fa-chart-line",
+      "skills": ["Requirements Gathering", "Business Process Modeling", "Workflow Automation", "Risk Assessment", "Process Optimization", "User Stories", "Use Cases"]
+    },
+    {
+      "name": "Documentation",
+      "icon": "fas fa-file-alt",
+      "skills": ["Business Requirements Document (BRD)", "Functional Requirement Document (FRD)", "System Requirement Specifications (SRS)"]
+    },
+    {
+      "name": "Languages & Tools",
+      "icon": "fas fa-code",
+      "skills": ["Python Scripting", "SQL"]
+    },
+    {
+      "name": "Visualization Tools",
+      "icon": "fas fa-chart-bar",
+      "skills": ["Tableau", "Power BI", "Visual Studio", "Microsoft Visio"]
+    },
+    {
+      "name": "Project Management",
+      "icon": "fas fa-tasks",
+      "skills": ["MS Project", "MS Excel", "MS SharePoint", "MS Access", "Jira"]
+    },
+    {
+      "name": "Analysis Skills",
+      "icon": "fas fa-search",
+      "skills": ["Cost/Benefit Analysis", "Impact Analysis", "GAP Analysis", "Risk Analysis", "SWOT Analysis", "Workflow Analysis"]
+    },
+    {
+      "name": "Methodologies",
+      "icon": "fas fa-sitemap",
+      "skills": ["SDLC", "Agile (Scrum)", "Waterfall"]
+    },
+    {
+      "name": "Other Skills",
+      "icon": "fas fa-toolbox",
+      "skills": ["HP Quality Center", "A/B Testing", "JAD", "Rational ClearQuest", "RTM", "UAT", "CRM", "KPIs"]
+    }
+  ]
+}

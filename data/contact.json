@@ -1,0 +1,25 @@
+{
+  "email": "shabnamr214@gmail.com",
+  "phone": "5174021656",
+  "socials": [
+    {
+      "name": "Email",
+      "username": "shabnamr214@gmail.com",
+      "url": "mailto:shabnamr214@gmail.com",
+      "icon": "email"
+    },
+    {
+      "name": "Phone",
+      "username": "+1 (517) 402-1656",
+      "url": "tel:+15174021656",
+      "icon": "phone"
+    },
+    {
+      "name": "LinkedIn",
+      "username": "Shabnam Rani",
+      "url": "https://linkedin.com/in/shabnam-rani",
+      "icon": "linkedin"
+    }
+  ],
+  "repoUrl": "https://github.com/shabnamrani/portfolio"
+}

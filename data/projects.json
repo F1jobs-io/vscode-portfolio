@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Insurance Claims Analytics Dashboard",
+    "image": "/default-project.png",
+    "description": "Interactive Power BI dashboard to visualize loss ratios, customer churn, claims processing KPIs and policy coverage gaps, enabling executive-level decisions that improved customer retention by 15%.",
+    "tags": ["Power BI", "SQL", "Data Analytics", "Insurance"],
+    "source_code": ""
+  },
+  {
+    "id": 2,
+    "name": "Cloud Migration Risk Analysis",
+    "image": "/default-project.png",
+    "description": "Conducted comprehensive GAP and risk analysis for migrating legacy insurance systems to a cloud-based platform, resulting in a 22% reduction in manual reconciliation tasks.",
+    "tags": ["Risk Analysis", "Cloud Migration", "Business Analysis"],
+    "source_code": ""
+  },
+  {
+    "id": 3,
+    "name": "Claims Workflow Automation",
+    "image": "/default-project.png",
+    "description": "Utilized Microsoft Visio and Excel to model current vs. future state workflows to streamline auto claims workflows, cutting average cycle time by 18% through automation recommendations.",
+    "tags": ["Process Optimization", "Microsoft Visio", "Workflow Automation"],
+    "source_code": ""
+  },
+  {
+    "id": 4,
+    "name": "Customer Onboarding Optimization",
+    "image": "/default-project.png",
+    "description": "Performed A/B testing impact analysis on customer onboarding UI variations using SQL-based segmentation, improving form completion rate by 21%.",
+    "tags": ["A/B Testing", "SQL", "UX Analysis", "Data Analytics"],
+    "source_code": ""
+  },
+  {
+    "id": 5,
+    "name": "Regulatory Compliance Data Validation",
+    "image": "/default-project.png",
+    "description": "Wrote complex SQL queries to support data profiling and validation for a large-scale regulatory compliance project, helping reduce data quality issues by 28%.",
+    "tags": ["SQL", "Data Quality", "Compliance", "Data Profiling"],
+    "source_code": ""
+  }
+]

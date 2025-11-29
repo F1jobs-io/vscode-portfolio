@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Business Analyst",
+    "company": "S&P Global",
+    "date": "Jan 2025 - Present",
+    "description": "Collaborated with stakeholders across underwriting and claims to gather business requirements and translated them into detailed BRD, FRD, and SRS documents, reducing manual processing time by 25%. Conducted GAP and risk analysis for migrating legacy insurance systems to a cloud-based platform, resulting in a 22% reduction in manual reconciliation tasks. Designed interactive Power BI dashboards to visualize loss ratios, customer churn, and claims processing KPIs.",
+    "icon": "/default-company.png",
+    "iconBg": "#2A9D8F"
+  },
+  {
+    "id": 2,
+    "title": "Junior Business Analyst",
+    "company": "Gainwell Technologies",
+    "date": "May 2021 - Jul 2023",
+    "description": "Participated in requirements gathering sessions with underwriters and claims managers to capture functional needs for an internal risk assessment portal. Created process models and workflow diagrams in Microsoft Visio. Performed A/B testing impact analysis on customer onboarding UI variations using SQL-based segmentation, improving form completion rate by 21%. Wrote complex SQL queries to support data profiling and validation for a large-scale regulatory compliance project.",
+    "icon": "/default-company.png",
+    "iconBg": "#4b6cb7"
+  }
+]
