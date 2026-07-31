@@ -1,0 +1,50 @@
+{
+  "_instructions": "Editor landing pane.",
+  "eyebrow": "frontend engineer",
+  "name": "Rowan Ellis",
+  "title": "Frontend Engineer",
+  "intro": "I build interfaces that stay fast and legible as they grow — design systems, component libraries, and the tooling teams rely on every day.",
+  "avatarUrl": "",
+  "cta": {
+    "buttons": [
+      {
+        "text": "View Work",
+        "href": "#projects",
+        "type": "primary"
+      },
+      {
+        "text": "Contact Me",
+        "href": "#contact",
+        "type": "secondary"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "7+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "4",
+      "label": "Projects"
+    },
+    {
+      "value": "3",
+      "label": "Companies"
+    },
+    {
+      "value": "24+",
+      "label": "Technologies"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/"
+    }
+  ]
+}

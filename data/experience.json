@@ -1,20 +1,56 @@
-[
-  {
-    "id": 1,
-    "title": "Business Analyst",
-    "company": "S&P Global",
-    "date": "Jan 2025 - Present",
-    "description": "Collaborated with stakeholders across underwriting and claims to gather business requirements and translated them into detailed BRD, FRD, and SRS documents, reducing manual processing time by 25%. Conducted GAP and risk analysis for migrating legacy insurance systems to a cloud-based platform, resulting in a 22% reduction in manual reconciliation tasks. Designed interactive Power BI dashboards to visualize loss ratios, customer churn, and claims processing KPIs.",
-    "icon": "/default-company.png",
-    "iconBg": "#2A9D8F"
-  },
-  {
-    "id": 2,
-    "title": "Junior Business Analyst",
-    "company": "Gainwell Technologies",
-    "date": "May 2021 - Jul 2023",
-    "description": "Participated in requirements gathering sessions with underwriters and claims managers to capture functional needs for an internal risk assessment portal. Created process models and workflow diagrams in Microsoft Visio. Performed A/B testing impact analysis on customer onboarding UI variations using SQL-based segmentation, improving form completion rate by 21%. Wrote complex SQL queries to support data profiling and validation for a large-scale regulatory compliance project.",
-    "icon": "/default-company.png",
-    "iconBg": "#4b6cb7"
-  }
-]
+{
+  "_instructions": "experience.json pane.",
+  "sectionLabel": "experience",
+  "sectionTitle": "Experience",
+  "roles": [
+    {
+      "position": "Senior Frontend Engineer",
+      "company": "Northlight",
+      "location": "Portland, OR",
+      "period": "Mar 2022 — Present",
+      "current": true,
+      "summary": "Own the shared component library used by four product teams.",
+      "highlights": [
+        "Migrated 180+ components to a single tokenised design system, halving duplicated UI code.",
+        "Cut median route load from 2.4s to 900ms by code-splitting and trimming the vendor bundle.",
+        "Set up visual regression tests that catch layout breaks before review."
+      ],
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Playwright"
+      ]
+    },
+    {
+      "position": "Frontend Engineer",
+      "company": "Cartography Labs",
+      "location": "Remote",
+      "period": "Jun 2019 — Feb 2022",
+      "summary": "Built the map-editing surface for a geospatial analytics product.",
+      "highlights": [
+        "Shipped a canvas editor handling 50k features without dropping frames.",
+        "Introduced an accessibility review step that took the product to WCAG AA."
+      ],
+      "stack": [
+        "JavaScript",
+        "WebGL",
+        "Node"
+      ]
+    },
+    {
+      "position": "Junior Developer",
+      "company": "Harbor & Co",
+      "location": "Portland, OR",
+      "period": "Aug 2017 — May 2019",
+      "summary": "Built marketing sites and internal dashboards.",
+      "highlights": [
+        "Rebuilt the CMS front end, cutting publish time from minutes to seconds."
+      ],
+      "stack": [
+        "JavaScript",
+        "SCSS"
+      ]
+    }
+  ]
+}

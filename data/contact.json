@@ -1,25 +1,19 @@
 {
-  "email": "shabnamr214@gmail.com",
-  "phone": "5174021656",
-  "socials": [
+  "_instructions": "contact.md pane.",
+  "sectionLabel": "contact",
+  "sectionTitle": "Contact",
+  "subtitle": "Open to senior frontend and design-systems roles. The fastest way to reach me is email.",
+  "email": "hello@example.com",
+  "location": "Portland, OR",
+  "availability": "Open to opportunities",
+  "socialLinks": [
     {
-      "name": "Email",
-      "username": "shabnamr214@gmail.com",
-      "url": "mailto:shabnamr214@gmail.com",
-      "icon": "email"
+      "platform": "GitHub",
+      "url": "https://github.com/"
     },
     {
-      "name": "Phone",
-      "username": "+1 (517) 402-1656",
-      "url": "tel:+15174021656",
-      "icon": "phone"
-    },
-    {
-      "name": "LinkedIn",
-      "username": "Shabnam Rani",
-      "url": "https://linkedin.com/in/shabnam-rani",
-      "icon": "linkedin"
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/"
     }
-  ],
-  "repoUrl": "https://github.com/shabnamrani/portfolio"
+  ]
 }

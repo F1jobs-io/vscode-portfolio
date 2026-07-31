@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="JSON-driven portfolio website." />
+  <meta name="author" content="" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/print.css" media="print" />
+  <script src="assets/js/enhance.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="vs">
+    <!-- ===== TITLE BAR ===== -->
+    <div class="vs-titlebar">
+      <div class="vs-traffic" aria-hidden="true">
+        <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--green"></span>
+      </div>
+      <ul class="vs-menu" aria-hidden="true">
+        <li>File</li><li>Edit</li><li>View</li><li>Go</li><li>Run</li><li>Terminal</li><li>Help</li>
+      </ul>
+      <div class="vs-titlebar__title" id="window-title"></div>
+    </div>
+
+    <div class="vs-body">
+      <!-- ===== ACTIVITY BAR ===== -->
+      <nav class="vs-activity" aria-label="Activity">
+        <button class="vs-activity__btn is-active" aria-label="Explorer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h7l2 2h9v13H3z"/></svg>
+        </button>
+        <button class="vs-activity__btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M16 16l5 5"/></svg>
+        </button>
+        <button class="vs-activity__btn" aria-label="Source control">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="6" r="2.5"/><circle cx="7" cy="18" r="2.5"/><circle cx="17" cy="12" r="2.5"/><path d="M7 8.5v7M9.5 6H14a3 3 0 013 3v.5"/></svg>
+        </button>
+      </nav>
+
+      <!-- ===== EXPLORER ===== -->
+      <aside class="vs-sidebar" aria-label="Explorer">
+        <p class="vs-sidebar__head">Explorer</p>
+        <p class="vs-sidebar__folder" id="explorer-folder"></p>
+        <ul class="vs-tree" id="explorer-tree"></ul>
+        <div class="vs-sidebar__meta" id="explorer-meta"></div>
+      </aside>
+
+      <!-- ===== EDITOR ===== -->
+      <div class="vs-editor">
+        <div class="vs-tabs" id="editor-tabs" role="tablist" aria-label="Sections"></div>
+
+        <main class="vs-panes" id="main">
+          <section id="home" class="pane pane--hero">
+            <p class="kicker" id="hero-eyebrow"></p>
+            <h1 class="hero__name" id="hero-name"></h1>
+            <p class="hero__role" id="hero-role"></p>
+            <p class="hero__intro" id="hero-intro"></p>
+            <div class="hero__cta" id="hero-cta"></div>
+            <ul class="hero__stats" id="hero-stats"></ul>
+            <ul class="hero__socials" id="hero-socials"></ul>
+            <div class="hero__glyphs" aria-hidden="true"><span class="glyph glyph--disc"></span><span class="glyph glyph--ring"></span><span class="glyph glyph--bar"></span></div>
+          </section>
+
+          <section id="about" class="pane">
+            <p class="kicker" id="about-label"></p>
+            <h2 class="pane__title" id="about-title"></h2>
+            <div class="about__body" id="about-body"></div>
+            <dl class="about__facts" id="about-facts"></dl>
+          </section>
+
+          <section id="experience" class="pane">
+            <p class="kicker" id="experience-label"></p>
+            <h2 class="pane__title" id="experience-title"></h2>
+            <div class="roles" id="experience-list"></div>
+          </section>
+
+          <section id="projects" class="pane">
+            <p class="kicker" id="projects-label"></p>
+            <h2 class="pane__title" id="projects-title"></h2>
+            <div class="projects" id="projects-list"></div>
+          </section>
+
+          <section id="skills" class="pane">
+            <p class="kicker" id="skills-label"></p>
+            <h2 class="pane__title" id="skills-title"></h2>
+            <div class="skills" id="skills-list"></div>
+          </section>
+
+          <section id="education" class="pane">
+            <p class="kicker" id="education-label"></p>
+            <h2 class="pane__title" id="education-title"></h2>
+            <div class="schools" id="education-list"></div>
+            <div class="certs" id="certifications-list"></div>
+          </section>
+
+          <section id="contact" class="pane">
+            <p class="kicker" id="contact-label"></p>
+            <h2 class="pane__title" id="contact-title"></h2>
+            <p class="contact__sub" id="contact-subtitle"></p>
+            <div class="contact__grid" id="contact-details"></div>
+            <ul class="contact__socials" id="contact-socials"></ul>
+          </section>
+
+          <footer class="vs-footer">
+            <p id="footer-text"></p>
+            <p id="footer-copyright"></p>
+            <div class="vs-footer__links" id="footer-links"></div>
+          </footer>
+        </main>
+      </div>
+    </div>
+
+    <!-- ===== STATUS BAR ===== -->
+    <div class="vs-status" aria-hidden="true">
+      <span class="vs-status__left" id="status-branch"></span>
+      <span class="vs-status__right"><span id="status-lang">JSON</span><span>UTF-8</span><span>Ln 1, Col 1</span></span>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "_instructions": "Explorer files and editor tabs. href must match a section id.",
+  "brand": {
+    "name": "Rowan Ellis",
+    "href": "#home"
+  },
+  "menuItems": [
+    {
+      "text": "Home",
+      "href": "#home"
+    },
+    {
+      "text": "About",
+      "href": "#about"
+    },
+    {
+      "text": "Experience",
+      "href": "#experience"
+    },
+    {
+      "text": "Projects",
+      "href": "#projects"
+    },
+    {
+      "text": "Skills",
+      "href": "#skills"
+    },
+    {
+      "text": "Education",
+      "href": "#education"
+    },
+    {
+      "text": "Contact",
+      "href": "#contact"
+    }
+  ]
+}
